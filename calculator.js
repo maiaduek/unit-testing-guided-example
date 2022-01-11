@@ -2,7 +2,7 @@ function sum(a, b) {
   if (!a) {
     return 0
   } else if (!b) {
-    return a + 0;
+    return a;
   }
   return a + b;
 }
